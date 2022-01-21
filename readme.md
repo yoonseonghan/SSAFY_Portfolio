@@ -1,1 +1,1 @@
-SSAFY Developer Portfolid
+SSAFY Developer Portfolio
