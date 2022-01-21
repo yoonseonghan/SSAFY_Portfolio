@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윤성한의 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="px-5 navbar navbar-dark bg-dark position-fixed w-100" style="color: green;">   
+            <a class="navbar-brand" href="https://www.naver.com">윤성한</a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="#main-part">Main</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-part">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#language-part">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stack-part">Stack</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#closing-part">Closing</a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-part">
+            <div id="carouselExampleIndicators" class="carousel slide w-100 m-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/main1.jpg" class="d-block w-100" alt="메인페이지 1">
+                    <div class="carousel-caption h-50 ">
+                        <h2>저는 SSAFY 임베디드반 출신 개발자 <br> 윤성한입니다.</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/main2.jpg" class="d-block w-100" alt="메인페이지 2">
+                    <div class="carousel-caption h-50 ">
+                        <h2> 임베디드 개발자가되고싶은 <br> 윤성한입니다.</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/main3.jpg" class="d-block w-100" alt="메인페이지 3">
+                    <div class="carousel-caption h-50 ">
+                        <h2>IoT, 마이크로프로세서,<br>  임베디드 전공기반 </h2>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section id="about-part" class="pt-5" style="min-height: 100vh;">
+            <div class="h1 bg-primary p-4 text-white text-center w-100 ">
+                About
+            </div>
+            <div class="card mx-auto mt-4" style="width: 18rem;">
+                <img src="/images/profile.jpg" class="card-img-top w-75 mt-4 m-auto" alt="프로필사진">
+                <div class="card-body text-center">
+                  <h5 class="card-title h3">윤성한</h5>
+                  <p class="card-text">Embedded Developer <br> Software / Firmware</p>
+                  <a href="https://github.com/yoonseonghan" class="btn btn-primary">Yoon's Git</a>
+                </div>
+            </div>
+
+            <div class="text-center m-5 ">
+                나를 죽이지 못하는 고통은 나를 더 강하게 만들 뿐이다. <br>
+-프리드리히 니체- <br>
+
+끊임없는 스스로에 대한 채직질로 성장해가는, <br>
+수 많은 경험을 바탕으로 더 많은 경험을 얻으려는,<br>
+ 고정되지 않은 다양한 생각으로 유연한 의사소통과 하는<br>
+개발자 윤성한입니다.
+            </div>
+            <ul class="list-group w-50 m-auto list-group-flush">
+                <li class="list-group-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z"/></svg>
+                    <span class="m-2">010-3213-1732</span>
+                </li>
+                <li class="list-group-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                    <span class="m-2">bill97sh@naver.com</span>
+                </li>
+                <li class="list-group-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg>
+                    <span class="m-2">경상북도 포항시 창포동</span>
+                </li>
+                <li class="list-group-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                    <span class="m-2">ENTP</span>
+                </li>
+              </ul>
+        </section>
+        <section id="language-part" class="pt-5" style="min-height: 100vh;">
+            <div class="h1 bg-primary p-4 text-white text-center w-100">
+                Language Skill
+            </div>
+                <ul class="w-75 mx-auto mt-5 skill-list">
+                    <li class="list-group-item d-flex align-items-center p-4">
+                        <div class="w-25 text-center">C</div>
+                        <div class="progress w-50">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                        </div>
+                        <div>85%</div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center p-4">
+                        <div class="w-25 text-center">C#</div>
+                        <div class="progress w-50">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+                        </div>
+                        <div>45%</div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center p-4">
+                        <div class="w-25 text-center">JavaScript</div>
+                        <div class="progress w-50">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                        </div>
+                        <div>50%</div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center p-4">
+                        <div class="w-25 text-center">Python</div>
+                        <div class="progress w-50">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                        </div>
+                        <div>65%</div>
+                    </li>
+                </ul>
+
+
+
+            
+        </section>
+        <section id="stack-part" class="sort-center pt-5" style="min-height: 100vh;">
+            <div class="h1 bg-primary p-4 text-white text-center w-100">
+                Skill Stack
+            </div>
+            <table class="table w-75 mt-5 m-auto">
+                <thead>
+                  <tr>
+                    <th scope="col">분야</th>
+                    <th scope="col">분류</th>
+                    <th scope="col">스택</th>
+                    <th scope="col">Level</th>
+                    <th scope="col">근거</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" rowspan="9">web</th>
+                    <td rowspan="6">Front-end</td>
+                    <td>Html/CSS</td>
+                    <td>⭐⭐⭐</td>
+                    <td>기본적인 웹사이트 제작 가능</td>
+                  </tr>
+                  <tr>
+                    <!-- <th scope="row">2</th> -->
+                    <td>Bootstrap</td>
+                    <td>⭐⭐⭐</td>
+                    <td>라이브러리 활용하여 포트폴리오 사이트 제작 </td>
+                  </tr>
+                  <tr>
+                    <td>Vue.js</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>React.js</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>C# Winform</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Winform 기반 클라이언트 제작</td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>⭐⭐⭐</td>
+                    <td>JS사용하여 유명 포털 메인화면 동적 구현</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">Back-end</td>
+                    <td>Node.js</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>MySQL</td>
+                    <td>⭐⭐⭐</td>
+                    <td>DB - Client JSON방식으로 통신 </td>
+                  </tr>
+                  <tr>
+                    <td>PostgreSQL</td>
+                    <td>⭐⭐</td>
+                    <td>JSON 통신 확인 경험</td>
+                  </tr>
+                </tbody>
+              </table>
+            <table class="table w-75 mt-5 m-auto">
+                <thead>
+                  <tr>
+                    <th scope="col">분야</th>
+                    <th scope="col">분류</th>
+                    <th scope="col">스택</th>
+                    <th scope="col">Level</th>
+                    <th scope="col">근거</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" rowspan="12">Embedded</th>
+                    <td rowspan="3">Firmware</td>
+                    <td>ARM</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>Cortex-M4 / Risk5 경험</td>
+                  </tr>
+                  <tr>
+                    <td>Rasberry pi</td>
+                    <td>⭐⭐⭐</td>
+                    <td>RB Pi4 사용하여 Linux 조작</td>
+                  </tr>
+                  <tr>
+                    <td>STM</td>
+                    <td>STMCubeIDE 개발 경험</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">RTOS</td>
+                    <td>Ubinos</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>멀티태스킹 가능한 교량전차 제작</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">장비</td>
+                    <td>회로도 이해</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Winform 기반 클라이언트 제작</td>
+                  </tr>
+                  <tr>
+                    <td>기본 계측</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>멀티미터, 오실로스코프 경험</td>
+                  </tr>
+                  <tr>
+                    <td>Debugger</td>
+                    <td>⭐⭐⭐</td>
+                    <td>STM32 Debugging Linker tool 사용</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Device Driver</td>
+                    <td>Linux Kernel</td>
+                    <td>⭐⭐</td>
+                    <td>Winform 기반 클라이언트 제작</td>
+                  </tr>
+                  <tr>
+                    <td>Linux Device Driver</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">Embedded UI</td>
+                    <td>Qt</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">IoT</td>
+                    <td>MQTT, BLE, Wifi</td>
+                    <td>⭐⭐⭐</td>
+                    <td>BLE, CAN, MQTT등의 여러 통신방식 경험</td>
+                  </tr>
+                  <tr>
+                    <td>Security</td>
+                    <td>학습예정</td>
+                    <td></td>
+                  </tr>
+                  
+
+                </tbody>
+              </table>
+
+        </section>
+        <section id="closing-part" class="pt-5" style="min-height: 100vh;">
+            <div class="h1 bg-primary p-4 text-white text-center w-100">
+                Closing
+            </div>
+            <div class="card mb-3 mt-5 text-center" >
+                <img src="/images/closing.jpg" class="card-img-top w-50 mx-auto mt-5" alt="마무리 사진">
+                <div class="card-body">
+                  <h5 class="card-title"><h2>"Time"</h2></h5>
+                  <p class="card-text"> <h5>매순간 최선을 다해 살지 않았다면 시간을 더 바랄 자격은 없다.</h5> 
+                  <br>
+                  <h6>다들 시간을 엄청 낭비하고 살면서</h6>
+                  <h6>시간이 모자른다고 말한다.</h6>
+                  <h6>몇 시간만 더 있었으면</h6>
+                  <h6>며칠만 더 있었으면</h6>
+                  <h6>몇 년만 더 살았으면</h6><br>
+                  <h6>시간만 더 주어졌더라면 어떤 실수도 돌이킬 수 있을거란 착각</h6><br>
+                  <h6>시간이 얼마나 있는지는 상관없다. 어떻게 쓰는지가 중요하지</h6>
+                  <br>
+                  <h6>refer : lol eco script</h6>
+                  </p>
+                  
+                </div>
+              </div>
+        
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+        CopyRight 2022 윤성한 All right reserved
+        &copy;
+    </footer>
+</body>
+</html>
